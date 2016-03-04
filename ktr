@@ -1,0 +1,1127 @@
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis pwrmonitoring
+Power Consumption Information
+
+Power Consumption
+Index             : 2
+Status            : Ok
+Probe Name        : System Board Pwr Consumption
+Reading           : 98 W
+Warning Threshold : 1176 W
+Failure Threshold : 1302 W
+
+Amperage
+PS1 Current 1 : 0.2 A
+PS2 Current 2 : 0.2 A
+
+Power Headroom
+System Instantaneous Headroom : 1084 W
+System Peak Headroom          : 322 W
+
+Power Tracking Statistics
+Statistic               : Energy Consumption
+Measurement Start Time  : Wed Jan 20 02:30:29 2016
+Measurement Finish Time : Thu Jan 28 08:16:23 2016
+Reading                 : 4.2 kWh
+
+Statistic              : System Peak Power
+Measurement Start Time : Wed Jan 20 02:30:29 2016
+Peak Time              : Wed Jan 27 07:00:42 2016
+Peak Reading           : 866 W
+
+Statistic              : System Peak Amperage
+Measurement Start Time : Wed Jan 20 02:30:29 2016
+Peak Time              : Wed Jan 27 06:29:02 2016
+Peak Reading           : 55.1 A
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis pwrmanagement
+
+Power Budget Information is not available on this system.
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis hwperformance
+Hardware Performance
+
+Index      : 0
+Probe Name : System Board Power Optimized
+Status     : Normal
+Cause      : [N/A]
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis acswitch
+Error! No AC Switch feature found on this system.
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis bios
+BIOS Information
+
+Manufacturer :  
+Version      : 1.2.10
+Release Date : 03/09/2015
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis biossetup
+
+Operation is under progress, it may take few seconds to complete...
+
+Note: use display=shortnames optional parameter to see attribute names and setting values in short form.
+BIOS Setup
+
+
+System Information                                  
+------------------------------------------          
+System Model Name                                   : 
+System BIOS Version                                 : 1.2.10
+System Management Engine Version                    : 3.0.7.164
+System Service Tag                                  : CRRZC42
+System Manufacturer                                 : 
+System Manufacturer Contact Information             : 
+System CPLD Version                                 : 1.0.1
+UEFI Compliance Version                             : 2.3.1
+
+Memory Settings                                     
+------------------------------------------          
+System Memory Size                                  : 64 GB
+System Memory Type                                  : ECC DDR4
+System Memory Speed                                 : 2133 Mhz
+System Memory Voltage                               : 1.20 V
+Video Memory                                        : 16 MB
+System Memory Testing                               : Disabled
+Memory Operating Mode                               : Optimizer Mode
+Node Interleaving                                   : Disabled
+Snoop Mode                                          : Early Snoop
+Correctable Memory ECC SMI                          : Enabled
+
+Processor Settings                                  
+------------------------------------------          
+Logical Processor                                   : Enabled
+Alternate RTID (Requestor Transaction ID) Setting   : Disabled
+Virtualization Technology                           : Enabled
+Address Translation Services (ATS)                  : Enabled
+Adjacent Cache Line Prefetch                        : Enabled
+Hardware Prefetcher                                 : Enabled
+DCU Streamer Prefetcher                             : Enabled
+DCU IP Prefetcher                                   : Enabled
+Logical Processor Idling                            : Disabled
+Configurable TDP                                    : Nominal
+X2Apic Mode                                         : Disabled
+Dell Controlled Turbo                               : Disabled
+Number of Cores per Processor                       : All
+Processor 64-bit Support                            : Yes
+Processor Core Speed                                : 2.30 GHz
+Family-Model-Stepping                               : 6-3F-2
+Brand                                               : Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+Level 2 Cache                                       : 10x256 KB
+Level 3 Cache                                       : 25 MB
+Number of Cores                                     : 10
+
+SATA Settings                                       
+------------------------------------------          
+Embedded SATA                                       : AHCI Mode
+Security Freeze Lock                                : Enabled
+Write Cache                                         : Disabled
+Port A                                              : Auto
+Model                                               : ST91000640NS                            
+Drive Type                                          : Hard Drive
+Capacity                                            : 1.00 TB
+Port B                                              : Auto
+Model                                               : Unknown
+Drive Type                                          : Unknown Device
+Capacity                                            : N/A
+Port C                                              : Auto
+Model                                               : Unknown
+Drive Type                                          : Unknown Device
+Capacity                                            : N/A
+Port D                                              : Auto
+Model                                               : Unknown
+Drive Type                                          : Unknown Device
+Capacity                                            : N/A
+Port E                                              : Auto
+Model                                               : Unknown
+Drive Type                                          : Unknown Device
+Capacity                                            : N/A
+Port F                                              : Auto
+Model                                               : Unknown
+Drive Type                                          : Unknown Device
+Capacity                                            : N/A
+Port G                                              : Auto
+Model                                               : Unknown
+Drive Type                                          : Unknown Device
+Capacity                                            : N/A
+Port H                                              : Auto
+Model                                               : Unknown
+Drive Type                                          : Unknown Device
+Capacity                                            : N/A
+Port I                                              : Auto
+Model                                               : Unknown
+Drive Type                                          : Unknown Device
+Capacity                                            : N/A
+Port J                                              : Auto
+Model                                               : Unknown
+Drive Type                                          : Unknown Device
+Capacity                                            : N/A
+
+Boot Settings                                       
+------------------------------------------          
+Boot Mode                                           : BIOS
+Boot Sequence Retry                                 : Enabled
+Hard-Disk Failover                                  : Disabled
+
+    BIOS Boot Settings                              
+    ------------------------------------------      
+
+    Boot Sequence                                   
+                                                    : 0. Enabled: Hard drive C:
+                                                    : 1. Enabled: Integrated NIC 1 Port 1 Partition 1: QLogic MBA Slot 0100 v7.12.6
+
+    Hard-Disk Drive Sequence                        
+                                                    : 0. Embedded SATA Port Disk A: ST91000640NS
+
+    One-Time Boot                                   
+    ------------------------------------------      
+    One-Time Boot Device List                       : Disabled
+    BIOS Boot Sequence Device                       : Hard drive C:
+    BIOS Hard-Disk Drive Sequence Device            : Embedded SATA Port Disk A: ST91000640NS
+
+Integrated Devices                                  
+------------------------------------------          
+USB 3.0 Setting                                     : Disabled
+User Accessible USB Ports                           : All Ports On
+Internal USB Port                                   : On
+Integrated Network Card 1                           : Enabled
+Integrated Network Card 1 Port 1 Boot Protocol      : PXE
+Integrated Network Card 1 Port 2 Boot Protocol      : None
+Integrated Network Card 1 Port 3 Boot Protocol      : None
+Integrated Network Card 1 Port 4 Boot Protocol      : None
+I/OAT DMA Engine                                    : Disabled
+Embedded Video Controller                           : Enabled
+Current State of Embedded Video Controller          : Enabled
+SR-IOV Global Enable                                : Disabled
+OS Watchdog Timer                                   : Disabled
+Memory Mapped I/O above 4GB                         : Enabled
+
+    Slot Disablement                                
+    ------------------------------------------      
+    Slot 1                                          : Enabled
+    Slot 2                                          : Enabled
+    Slot 3                                          : Enabled
+    Slot 4                                          : Enabled
+    Slot 5                                          : Enabled
+    Slot 6                                          : Enabled
+    Slot 7                                          : Enabled
+
+Serial Communication                                
+------------------------------------------          
+Serial Communication                                : Auto
+Serial Port Address                                 : Serial Device1=COM2,Serial Device2=COM1
+External Serial Connector                           : Serial Device 1
+Failsafe Baud Rate                                  : 115200
+Remote Terminal Type                                : VT100/VT220
+Redirection After Boot                              : Enabled
+
+System Profile Settings                             
+------------------------------------------          
+System Profile                                      : Performance
+CPU Power Management                                : Maximum Performance
+Memory Frequency                                    : Maximum Performance
+Turbo Boost                                         : Enabled
+Energy Efficient Turbo                              : Disabled
+C1E                                                 : Disabled
+C States                                            : Disabled
+Collaborative CPU Performance Control               : Disabled
+Memory Patrol Scrub                                 : Standard
+Memory Refresh Rate                                 : 1x
+Uncore Frequency                                    : Maximum
+Energy Efficient Policy                             : Performance
+Number of Turbo Boost Enabled Cores for Processor 1 : All
+Monitor/Mwait                                       : Enabled
+Workload Profile                                    : Not Available
+Power Saver                                         : Disabled
+
+System Security                                     
+------------------------------------------          
+Intel(R) AES-NI                                     : Enabled
+System Password                                     : 
+Setup Password                                      : 
+Password Status                                     : Unlocked
+TPM Security                                        : Off
+    TPM Information                                 : No TPM present
+    TPM Status                                      : Unknown
+    TPM Command                                     : None
+Intel(R) TXT                                        : Off
+AC Power Recovery                                   : Last
+AC Power Recovery Delay                             : Immediate
+User Defined Delay (60s to 240s)                    : 30462
+UEFI Variable Access                                : Standard
+Secure Boot                                         : Disabled
+Secure Boot Policy                                  : Standard
+
+Miscellaneous Settings                              
+------------------------------------------          
+Asset Tag                                           : 
+Keyboard NumLock                                    : On
+F1/F2 Prompt on Error                               : Enabled
+Load Legacy Video Option ROM                        : Disabled
+In-System Characterization                          : Enabled - No Reboot
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis bmc
+Remote Access Information
+
+Remote Access Device
+Device Type                        : iDRAC8 Express
+iDRAC Ports                        : Present
+IPMI Version                       : 2.0
+System GUID                        : 3234434f-c0c3-5a80-5210-00524c4c4544
+Number of Possible Active Sessions : 5
+Number of Current Active Sessions  : 0
+Enable IPMI Over LAN               : No
+SOL Enabled                        : Yes
+MAC Address                        : 44-A8-42-10-BE-5D
+
+IPv4 Address
+IP Address Source : Static
+IP Address        : 172.16.152.101
+IP Subnet         : 255.255.128.0
+IP Gateway        : 172.16.128.1
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis fans
+Fan Probes Information
+
+Fan Redundancy
+Redundancy Status : Full
+
+Probe List
+Index                     : 0
+Status                    : Ok
+Probe Name                : System Board Fan1
+Reading                   : 3000 RPM
+Minimum Warning Threshold : 600 RPM
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : 360 RPM
+Maximum Failure Threshold : [N/A]
+
+Index                     : 1
+Status                    : Ok
+Probe Name                : System Board Fan2
+Reading                   : 3000 RPM
+Minimum Warning Threshold : 600 RPM
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : 360 RPM
+Maximum Failure Threshold : [N/A]
+
+Index                     : 2
+Status                    : Ok
+Probe Name                : System Board Fan3
+Reading                   : 3000 RPM
+Minimum Warning Threshold : 600 RPM
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : 360 RPM
+Maximum Failure Threshold : [N/A]
+
+Index                     : 3
+Status                    : Ok
+Probe Name                : System Board Fan4
+Reading                   : 2880 RPM
+Minimum Warning Threshold : 600 RPM
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : 360 RPM
+Maximum Failure Threshold : [N/A]
+
+Index                     : 4
+Status                    : Ok
+Probe Name                : System Board Fan5
+Reading                   : 3000 RPM
+Minimum Warning Threshold : 600 RPM
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : 360 RPM
+Maximum Failure Threshold : [N/A]
+
+Index                     : 5
+Status                    : Ok
+Probe Name                : System Board Fan6
+Reading                   : 3000 RPM
+Minimum Warning Threshold : 600 RPM
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : 360 RPM
+Maximum Failure Threshold : [N/A]
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis fru
+System Components (FRU) Information
+
+Device           : System Planar (iDRAC8)
+Serial No.       : CN7792151D0056
+Part No.         : 0599V5
+Revision         : A06
+Manufacturer     : DELL
+Manufacture Date : Tue Jan 20 01:40:00 2015
+
+Device           : Power Supply 1 (PS1)
+Serial No.       : PH162985160003
+Part No.         : 09338D
+Revision         : A01
+Manufacturer     : DELL
+Manufacture Date : Tue Jan 06 03:37:00 2015
+
+Device           : Power Supply 2 (PS2)
+Serial No.       : PH162985160005
+Part No.         : 09338D
+Revision         : A01
+Manufacturer     : DELL
+Manufacture Date : Tue Jan 06 03:38:00 2015
+
+Device           : Disk Drive Bay (BP1)
+Serial No.       : CN779214CR0022
+Part No.         : 035GCM
+Revision         : A00
+Manufacturer     : DELL
+Manufacture Date : Sat Jan 17 10:49:00 2015
+
+Device           : Add-in Card (NDC)
+Serial No.       : CN4829652F00JO
+Part No.         : 0XGRFF
+Revision         : A00
+Manufacturer     : DELL
+Manufacture Date : Tue Feb 24 19:16:00 2015
+
+Device           : A1
+Serial No.       : 90CE0840
+Part No.         : HMA42GR7MFR4N-TF
+Revision         : N/A
+Manufacturer     : Hynix Semiconductor (00AD063200AD)
+Manufacture Date : Mon Mar 30 17:00:00 2015
+
+Device           : A2
+Serial No.       : 90CE07F4
+Part No.         : HMA42GR7MFR4N-TF
+Revision         : N/A
+Manufacturer     : Hynix Semiconductor (00AD063200AD)
+Manufacture Date : Mon Mar 30 17:00:00 2015
+
+Device           : A3
+Serial No.       : 90CE07E6
+Part No.         : HMA42GR7MFR4N-TF
+Revision         : N/A
+Manufacturer     : Hynix Semiconductor (00AD063200AD)
+Manufacture Date : Mon Mar 30 17:00:00 2015
+
+Device           : A4
+Serial No.       : 90CE0837
+Part No.         : HMA42GR7MFR4N-TF
+Revision         : N/A
+Manufacturer     : Hynix Semiconductor (00AD063200AD)
+Manufacture Date : Mon Mar 30 17:00:00 2015
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis leds
+Main System Chassis
+
+Flash chassis identify LED state         : Off
+Flash chassis identify LED timeout value : 300
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis firmware
+Firmware Information
+
+Version Information
+iDRAC8               : 2.10.10.10 (Build 49)
+Lifecycle Controller : 2.10.10.10
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis info
+Chassis Information
+
+Index                                    : 0
+Chassis Name                             : Main System Chassis
+Host Name                                : dell-r730
+iDRAC8 Version                           : 2.10.10.10 (Build 49)
+Lifecycle Controller Version             : 2.10.10.10
+Chassis Model                            : 
+Chassis Lock                             : Present
+Chassis Service Tag                      : CRRZC42
+Express Service Code                     : 27800973074
+Chassis Asset Tag                        : Unknown
+Flash chassis identify LED state         : Off
+Flash chassis identify LED timeout value : 300
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis intrusion
+Intrusion Information
+
+Health : Ok
+
+Index      : 0
+Status     : Ok
+Probe Name : Intrusion
+State      : Chassis is closed
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis memory
+Memory Information
+
+Health : Ok
+
+Attributes of Memory Array(s)
+
+Attributes of Memory Array(s)
+Location           : System Board or Motherboard
+Use                : System Memory
+Installed Capacity : 65536  MB
+Maximum Capacity   : 786432  MB
+Slots Available    : 24
+Slots Used         : 4
+Error Correction   : Multibit ECC
+
+Total of Memory Array(s)
+Total Installed Capacity                     : 65536  MB
+Total Installed Capacity Available to the OS : 64450  MB
+Total Maximum Capacity                       : 786432  MB
+
+Details of Memory Array 1
+Index          : 0
+Status         : Ok
+Connector Name : A1
+Type           : DDR4 - Synchronous Registered (Buffered)
+Size           : 16384  MB
+
+Index          : 1
+Status         : Ok
+Connector Name : A2
+Type           : DDR4 - Synchronous Registered (Buffered)
+Size           : 16384  MB
+
+Index          : 2
+Status         : Ok
+Connector Name : A3
+Type           : DDR4 - Synchronous Registered (Buffered)
+Size           : 16384  MB
+
+Index          : 3
+Status         : Ok
+Connector Name : A4
+Type           : DDR4 - Synchronous Registered (Buffered)
+Size           : 16384  MB
+
+Index          : 
+Status         : Unknown
+Connector Name : A5
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : A6
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : A7
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : A8
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : A9
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : A10
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : A11
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : A12
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B1
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B2
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B3
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B4
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B5
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B6
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B7
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B8
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B9
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B10
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B11
+Type           : [Not Occupied]
+Size           : 
+
+Index          : 
+Status         : Unknown
+Connector Name : B12
+Type           : [Not Occupied]
+Size           : 
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis nics
+Network Interfaces Information
+
+Physical NIC Interface(s)
+Index             : 0
+Interface Name    : eth0
+Vendor            : Broadcom Corporation
+Description       : BCM57840 NetXtreme II 10 Gigabit Ethernet
+Connection Status : Connected
+Slot              : Embedded
+
+Index             : 1
+Interface Name    : eth1
+Vendor            : Broadcom Corporation
+Description       : BCM57840 NetXtreme II 10 Gigabit Ethernet
+Connection Status : Disabled
+Slot              : Embedded
+
+Index             : 2
+Interface Name    : eth2
+Vendor            : Broadcom Corporation
+Description       : BCM57840 NetXtreme II 10 Gigabit Ethernet
+Connection Status : Disabled
+Slot              : Embedded
+
+Index             : 3
+Interface Name    : eth3
+Vendor            : Broadcom Corporation
+Description       : BCM57840 NetXtreme II 10 Gigabit Ethernet
+Connection Status : Disabled
+Slot              : Embedded
+
+Index             : 4
+Interface Name    : eth4
+Vendor            : Broadcom Corporation
+Description       : NetXtreme II BCM57810 10 Gigabit Ethernet
+Connection Status : Disabled
+Slot              : PCIe Slot 5
+
+Index             : 5
+Interface Name    : eth5
+Vendor            : Broadcom Corporation
+Description       : NetXtreme II BCM57810 10 Gigabit Ethernet
+Connection Status : Disabled
+Slot              : PCIe Slot 5
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis ports
+Ports Information
+
+Port Type      : Serial
+External Name  : Serial port 1
+Base I/O Addr  : 0x2f8
+IRQ Lvl        : 3
+Connector Type : DB-9 Male
+Maximum Speed  : 115200
+
+Port Type      : USB
+External Name  : Back USB port 1
+Base I/O Addr  : 
+IRQ Lvl        : 
+Connector Type : Access Bus (USB)
+Maximum Speed  : 
+
+Port Type      : USB
+External Name  : Front USB port 1
+Base I/O Addr  : 
+IRQ Lvl        : 
+Connector Type : Access Bus (USB)
+Maximum Speed  : 
+
+Port Type      : USB
+External Name  : Internal USB port 1
+Base I/O Addr  : 
+IRQ Lvl        : 
+Connector Type : Access Bus (USB)
+Maximum Speed  : 
+
+Port Type      : USB
+External Name  : Back USB port 2
+Base I/O Addr  : 
+IRQ Lvl        : 
+Connector Type : Access Bus (USB)
+Maximum Speed  : 
+
+Port Type      : USB
+External Name  : Front USB port 2
+Base I/O Addr  : 
+IRQ Lvl        : 
+Connector Type : Access Bus (USB)
+Maximum Speed  : 
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis frontpanel
+Front Panel Information
+
+Front Panel Buttons Information
+
+Power Button : Enabled
+NMI Button   : Disabled
+
+Front Panel LCD Security Access
+
+Front Panel LCD Security Access : View and Modify
+
+Front Panel LCD Information
+
+LCD Line 1 : Yahoo
+
+Enable Remote Indication
+
+Enable Remote Indication : Inactive
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis processors
+Processors Information
+
+Health : Ok
+
+Index             : 0
+Status            : Ok
+Connector Name    : CPU1
+Processor Brand   : Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz
+Processor Version : Model 63 Stepping 2
+Current Speed     : 2300  MHz
+State             : Present
+Core Count        : 10
+
+Index             : 1
+Status            : Unknown
+Connector Name    : CPU2
+Processor Brand   : [Not Occupied]
+Processor Version : NA
+Current Speed     : NA
+State             : NA
+Core Count        : NA
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis pwrsupplies
+Power Supplies Information
+
+--------------------------------------
+Main System Chassis Power Supplies: Ok
+--------------------------------------
+
+Individual Power Supply Elements
+
+Index                    : 0
+Status                   : Ok
+Location                 : PS1 Status
+Type                     : AC
+Rated Input Wattage      : 594 W
+Maximum Output Wattage   : 495 W
+Firmware Version         : 00.10.37
+Online Status            : Presence Detected
+Power Monitoring Capable : Yes
+
+Index                    : 1
+Status                   : Ok
+Location                 : PS2 Status
+Type                     : AC
+Rated Input Wattage      : 594 W
+Maximum Output Wattage   : 495 W
+Firmware Version         : 00.10.37
+Online Status            : Presence Detected
+Power Monitoring Capable : Yes
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis slots
+Slots Information
+
+Index          : 0
+Slot ID        : PCIe Slot 1
+Adapter        : [Not Occupied]
+Data Bus Width : 8x or x8
+
+Index          : 1
+Slot ID        : PCIe Slot 2
+Adapter        : [Not Occupied]
+Data Bus Width : 8x or x8
+
+Index          : 2
+Slot ID        : PCIe Slot 3
+Adapter        : [Not Occupied]
+Data Bus Width : 8x or x8
+
+Index          : 3
+Slot ID        : PCIe Slot 4
+Adapter        : [Not Occupied]
+Data Bus Width : 16x or x16
+
+Index          : 4
+Slot ID        : PCIe Slot 5
+Adapter        : NetXtreme II BCM57810 10 Gigabit Ethernet
+Data Bus Width : 8x or x8
+
+Index          : 5
+Slot ID        : PCIe Slot 6
+Adapter        : [Not Occupied]
+Data Bus Width : 8x or x8
+
+Index          : 6
+Slot ID        : PCIe Slot 7
+Adapter        : [Not Occupied]
+Data Bus Width : 8x or x8
+
+Index          : 7
+Slot ID        : Embedded
+Adapter        : BCM57840 NetXtreme II 10 Gigabit Ethernet
+Data Bus Width : N/A
+
+Index          : 8
+Slot ID        : Embedded
+Adapter        : BCM57840 NetXtreme II 10 Gigabit Ethernet
+Data Bus Width : N/A
+
+Index          : 9
+Slot ID        : Embedded
+Adapter        : BCM57840 NetXtreme II 10 Gigabit Ethernet
+Data Bus Width : N/A
+
+Index          : 10
+Slot ID        : Embedded
+Adapter        : BCM57840 NetXtreme II 10 Gigabit Ethernet
+Data Bus Width : N/A
+
+Index          : 11
+Slot ID        : Embedded
+Adapter        : G200eR2
+Data Bus Width : N/A
+
+Index          : 12
+Slot ID        : Embedded
+Adapter        : C610/X99 series chipset USB Enhanced Host Controller #1
+Data Bus Width : N/A
+
+Index          : 13
+Slot ID        : Embedded
+Adapter        : C610/X99 series chipset USB Enhanced Host Controller #2
+Data Bus Width : N/A
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis temps
+Temperature Probes Information
+
+------------------------------------
+Main System Chassis Temperatures: Ok
+------------------------------------
+
+Index                     : 0
+Status                    : Ok
+Probe Name                : System Board Inlet Temp
+Reading                   : 21.0 C
+Minimum Warning Threshold : 3.0 C
+Maximum Warning Threshold : 42.0 C
+Minimum Failure Threshold : -7.0 C
+Maximum Failure Threshold : 47.0 C
+
+Index                     : 1
+Status                    : Ok
+Probe Name                : System Board Exhaust Temp
+Reading                   : 25.0 C
+Minimum Warning Threshold : 0.0 C
+Maximum Warning Threshold : 70.0 C
+Minimum Failure Threshold : 0.0 C
+Maximum Failure Threshold : 75.0 C
+
+Index                     : 2
+Status                    : Ok
+Probe Name                : CPU1 Temp
+Reading                   : 47.0 C
+Minimum Warning Threshold : 8.0 C
+Maximum Warning Threshold : 85.0 C
+Minimum Failure Threshold : 3.0 C
+Maximum Failure Threshold : 90.0 C
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis volts
+Voltage Probes Information
+
+Health : Ok
+
+Index                     : 0
+Status                    : Ok
+Probe Name                : CPU1 VCORE PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 1
+Status                    : Ok
+Probe Name                : System Board 3.3V PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 2
+Status                    : Ok
+Probe Name                : System Board 5V AUX PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 3
+Status                    : Ok
+Probe Name                : CPU1 M23 VPP PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 4
+Status                    : Ok
+Probe Name                : System Board 1.05V PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 5
+Status                    : Ok
+Probe Name                : CPU1 M23 VDDQ PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 6
+Status                    : Ok
+Probe Name                : CPU1 M23 VTT PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 7
+Status                    : Ok
+Probe Name                : System Board 5V SWITCH PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 8
+Status                    : Ok
+Probe Name                : System Board VCCIO PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 9
+Status                    : Ok
+Probe Name                : System Board 2.5V AUX PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 10
+Status                    : Ok
+Probe Name                : CPU1 M01 VDDQ PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 11
+Status                    : Ok
+Probe Name                : System Board NDC PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 12
+Status                    : Ok
+Probe Name                : CPU1 M01 VPP PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 13
+Status                    : Ok
+Probe Name                : System Board 1.5V PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 14
+Status                    : Ok
+Probe Name                : System Board PS2 PG Fail
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 15
+Status                    : Ok
+Probe Name                : System Board PS1 PG Fail
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 16
+Status                    : Ok
+Probe Name                : System Board BP1 5V PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 17
+Status                    : Ok
+Probe Name                : System Board 1.5V AUX PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 18
+Status                    : Ok
+Probe Name                : CPU1 M01 VTT PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 19
+Status                    : Ok
+Probe Name                : PS1 Voltage 1
+Reading                   : 230 V
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 20
+Status                    : Ok
+Probe Name                : PS2 Voltage 2
+Reading                   : 230 V
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 21
+Status                    : Ok
+Probe Name                : System Board DIMM PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+Index                     : 22
+Status                    : Ok
+Probe Name                : CPU1 FIVR PG
+Reading                   : Good
+Minimum Warning Threshold : [N/A]
+Maximum Warning Threshold : [N/A]
+Minimum Failure Threshold : [N/A]
+Maximum Failure Threshold : [N/A]
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis remoteaccess
+Remote Access Information
+
+Remote Access Device
+Device Type                        : iDRAC8 Express
+iDRAC Ports                        : Present
+IPMI Version                       : 2.0
+System GUID                        : 3234434f-c0c3-5a80-5210-00524c4c4544
+Number of Possible Active Sessions : 5
+Number of Current Active Sessions  : 0
+Enable IPMI Over LAN               : No
+SOL Enabled                        : Yes
+MAC Address                        : 44-A8-42-10-BE-5D
+
+IPv4 Address
+IP Address Source : Static
+IP Address        : 172.16.152.101
+IP Subnet         : 255.255.128.0
+IP Gateway        : 172.16.128.1
+
+[root@dell-r730 ipmitool-1.8.15]# omreport chassis batteries
+Batteries
+
+Health : Ok
+
+Individual Battery Elements
+Index      : 0
+Status     : Ok
+Probe Name : System Board CMOS Battery
+Reading    : Good
+
+[root@dell-r730 ipmitool-1.8.15]# 
